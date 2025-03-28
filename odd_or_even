@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+void naturalnum(int n){
+    if(n>0){
+        printf("%d is a natural number\n ",n);
+    }
+    else{
+        printf("%d is not a natural number \n",n);
+    }
+}
+int main(){
+    int n;
+    printf("Enter the value of n:");
+    scanf("%d",&n);
+    naturalnum(n);
+    return 0;
+    
+}
